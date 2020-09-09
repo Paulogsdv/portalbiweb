@@ -1,0 +1,11 @@
+version: '3'
+services:
+   portal-bi-web-master:
+      container_name: portal-bi-web-master
+      restart: always
+      build:
+         context: .
+         dockerfile: dockerfile
+      image: node-portal-bi-web-master
+      ports:
+         - '53000:80'

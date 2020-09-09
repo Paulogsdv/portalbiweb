@@ -1,0 +1,14 @@
+FROM node:13-alpine as node-portal-bi-web-master
+WORKDIR /app
+COPY package.json /app
+RUN npm install
+COPY . .
+RUN npm run prebuild
+RUN npm run build
+
+FROM nginx:alpine as nginx-portal-bi-web-master
+VOLUME /var/cache/nginx
+COPY --from=node-portal-bi-web-master app/build /usr/share/nginx/html
+COPY ./nginx.conf /etc/nginx/conf.d/default.conf
+EXPOSE 80
+CMD ["nginx", "-g", "daemon off;"]

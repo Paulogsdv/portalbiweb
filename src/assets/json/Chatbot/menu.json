@@ -1,0 +1,124 @@
+[
+   {
+      "id": "2",
+      "message": "Escolha e clique em uma das opções a seguir:",
+      "trigger": "3"
+   },
+   {
+      "id": "3",
+      "options": [
+         { "value": "0", "label": "Dúvidas", "trigger": "100" },
+         { "value": "1", "label": "Comercial", "trigger": "501" },
+         { "value": "2", "label": "Suporte", "trigger": "502" }
+      ]
+   },
+   {
+      "id": "100",
+      "options": [
+         { "value": "0", "label": "Financeiro", "trigger": "101" },
+         { "value": "1", "label": "Vendas", "trigger": "102" }
+      ]
+   },
+   {
+      "id": "101",
+      "options": [
+         { "value": "1", "label": "Contas bancárias", "trigger": "200" },
+         { "value": "2", "label": "Contas a pagar avulsas", "trigger": "202" },
+         { "value": "3", "label": "Resumo de contas", "trigger": "204" },
+         { "value": "4", "label": "Saldo das contas bancárias", "trigger": "206" },
+         { "value": "5", "label": "Gráfico de evolução de saldo bancário", "trigger": "208" },
+         { "value": "6", "label": "Gráfico de inadimplências", "trigger": "210" },
+         { "value": "7", "label": "Gráfico de projeção de recebimentos", "trigger": "212" }
+      ]
+   },
+   {
+      "id": "102",
+      "options": [
+         { "value": "8", "label": "Vendas por vendedor", "trigger": "214" },
+         { "value": "9", "label": "Gráfico de lucratividade mensal", "trigger": "215" },
+         { "value": "10", "label": "Ticket médio", "trigger": "216" },
+         { "value": "11", "label": "Ranking de produtos", "trigger": "217" },
+         { "value": "12", "label": "Ranking de seções", "trigger": "218" }
+      ]
+   },
+   {
+      "id": "200",
+      "message": "Este módulo permite a visualização, criação, edição e remoção de contas bancárias vinculadas ou não com as contas bancárias do Solution! Incrível né?",
+      "trigger": "201"
+   },
+   {
+      "id": "201",
+      "message": "Se você tem acesso a este módulo, você consegue utilizar os dados da conta bancária nos módulos de Saldo de contas bancárias, Resumo de contas e Contas a pagar avulsas! Não sabe sobre estes outros? Da um pulinho lá em Dúvidas/Financeiro.",
+      "trigger": "2"
+   },
+   {
+      "id": "202",
+      "message": "Este módulo permite a visualização, criação, edição e remoção de contas a pagar avulsas, isto é, para aquelas contas do dia a dia, sabe?",
+      "trigger": "203"
+   },
+   {
+      "id": "203",
+      "message": "Se você tem acesso a este módulo, você consegue visualizar as contas a pagar avulsas no calendário, conhecido como Resumo de contas! Para saber mais, acesse Dúvidas/Financeiro.",
+      "trigger": "2"
+   },
+   {
+      "id": "204",
+      "message": "Este módulo é um calendário que separa todas as suas contas, ordenando as mesmas por dia, mês e ano. Sendo elas duplicatas, cheques e as contas a pagar avulsas criadas no PortalBI!",
+      "trigger": "205"
+   },
+   {
+      "id": "205",
+      "message": "E se você clicar na conta, ela apresenta informações detalhadas! Olha a dica: se você clicar no dia, ele apresenta o total das contas referente ao mesmo!",
+      "trigger": "2"
+   },
+   {
+      "id": "206",
+      "message": "Como o nome diz, este módulo apresenta o saldos das contas bancárias que foram vinculadas com contas bancárias do Solution!",
+      "trigger": "207"
+   },
+   {
+      "id": "207",
+      "message": "Se você clicar em 'Gerar extrato' vai ser possível verificar os movimentos financeiros que resultaram no saldo atual! Muito fácil não é mesmo?",
+      "trigger": "2"
+   },
+   {
+      "id": "208",
+      "message": "Escolha uma das opções a seguir:",
+      "trigger": "2"
+   },
+   {
+      "id": "210",
+      "message": "Escolha uma das opções a seguir:",
+      "trigger": "2"
+   },
+   {
+      "id": "212",
+      "message": "Escolha uma das opções a seguir:",
+      "trigger": "2"
+   },
+   {
+      "id": "214",
+      "message": "O que seu vendedor está fazendo? Este módulo indica o quanto ele faturou, custou e converteu em lucro bruto para a sua empresa! Para melhorar, você pode visualizar os valores mensalmente ou do dia atual!",
+      "trigger": "2"
+   },
+   {
+      "id": "215",
+      "message": "Este módulo é um gráfico que representa a lucratividade do mês em um período padrão de um ano, contendo o faturamente, o custo, e o lucro bruto! Dica do dia: passe o mouse ou clique em cima para visualizar melhor as informações! Supimpa!",
+      "trigger": "2"
+   },
+   {
+      "id": "216",
+      "message": "Qual o valor médio aproximado que meus clientes costumam gastar na minha empresa? Qual a quantidade de produtos que eles compram? Neste módulo a gente simplifica isso tanto no mensal quanto no diário!",
+      "trigger": "2"
+   },
+   {
+      "id": "217",
+      "message": "Neste módulo é apresentado as informações sobre seus melhores produtos, você ainda pode escolher o período e ordena-lós por faturamento ou lucro bruto! Facil né?",
+      "trigger": "2"
+   },
+   {
+      "id": "218",
+      "message": "Neste módulo é apresentado as informações sobre suas seções, um ranking entre as melhores! Dica: você pode utilizar os filtros para ordenar entre maior faturamento ou maior lucro bruto!",
+      "trigger": "2"
+   }
+]
